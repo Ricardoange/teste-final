@@ -1,0 +1,134 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(SL_031721_41490_35.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+  
+ 
+   
+}
+/* Cabeçalho */
+
+header {
+    text-align: center;
+    align-items: center;
+    font-size: 3vb;
+    background-color: rgb(61, 148, 255);
+    color: #fff;
+    padding: 1px;
+    margin: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+nav a:hover {
+    color: #98bbd5;
+}
+.frase1 {
+    font-size:3vb ;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.nome_da_empresa {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 10vb;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+.hero {
+  
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+main {
+    
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    display: flex;
+    height: 400px;
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000000;
+}
+.seguro {
+    
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+/* Rodapé */
+.foooter {
+    font-size: 2vb;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  text-decoration: none;
+  }
+  
+/* Media Queries para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0;
+        margin: 0;
+        background-image: url("SL_031721_41490_35.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 130vb;
+        box-sizing: border-box;
+    
+      background-repeat: no-repeat;
+
+
+    }
+   .cabecalho {
+        
+            font-size: 2vw;
+        }
+    
+ strong{
+    height: 60vb;
+ }
+
+    .foooter {
+        font-size: 1rem;
+        height: 40px;
+        line-height: 40px;
+    }
+}

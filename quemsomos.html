@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons8-gelo-28.png" type="Image.png" >
+    <title>Document</title>
+    <link rel="stylesheet" href="quemsomos.css">
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+            <ul>
+                <li><a href="index.html">
+                    🏠 Início</a></li>
+                <li><a href="quemsomos.html">📖 Sobre nós</a></li>
+                <li><a href="servicos.html">🛠️ Serviços</a></li>
+                <li><a href="contato.html">📱 Contato</a></li>
+                <li><a href="endereco.html">📍 Endereço</a></li>
+                <li><a href="parceiros.html">🤝 Parceiros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <p class="texto2"> Bem-vindo ao site da CR Climatizações! Somos uma empresa especializada em soluções de ar condicionados, placas solares e  
+            refrigeração. <br> Nossa missão é oferecer informações e serviços de alta qualidade para garantir conforto, economia e sustentabilidade. <br>
+             Com uma equipe de especialistas experientes, fornecemos orientações e produtos de ponta, focados em tecnologias eco-friendly. <br> 
+             Em nossa Empresa, você encontrará uma seleção cuidadosamente escolhida de equipamentosde climatização e refrigeração. <br> Junte-se a nós nessa jornada rumo a ambientes mais 
+            agradáveis e conscientes. <br> Seja bem-vindo à CR Climatizações, onde a excelência e a sustentabilidade se unem!
+        </p>
+        <section id="galeria">
+            <h2 class="galeria">Galeria</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                   
+<img src="refrigeracao-comercial.jpg" alt="">
+<img src="tec.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.27 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.27 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.27.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.28 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.28 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.28.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.29 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.29.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.30 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.30 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.30.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.31 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.31 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.31 (3).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.31.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.32 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.32 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.32 (3).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.32.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.33 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.33 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.33 (3).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.33.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.34 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.34 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.34 (3).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.34.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.35 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.45.35.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.46.59.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.00 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.00 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.00 (3).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.00.jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.01 (1).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.01 (2).jpeg" alt="">
+<img src="WhatsApp Image 2023-08-06 at 15.47.01.jpeg" alt="">
+     
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var carouselContainer = $(".carousel-container");
+                var imageWidth = $(".carousel img").outerWidth();
+                var scrollAmount = 0;
+        
+                $(".carousel-container img").each(function() {
+                    scrollAmount += imageWidth + 10;
+                });
+        
+                $(".carousel-container").css("width", scrollAmount + "px");
+        
+                function startCarousel() {
+                    carouselContainer.animate({ marginLeft: -imageWidth }, 1000, function() {
+                        $(this).css({ marginLeft: 0 }).find("img:last").after($(this).find("img:first"));
+                    });
+                }
+        
+                setInterval(startCarousel, 2000);
+            });
+        </script>
+            
+        
+    </main>
+    <a class="footer" href="https://wa.me/5551996377822?text=Oi%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20meu%20site.">© Desenvolvedor Ricardo Angel & Evilin Dias</a>
+    
+   
+</body>
+</html>
